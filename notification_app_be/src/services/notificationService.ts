@@ -1,7 +1,7 @@
 import { fetchAllNotifications } from "../repository/notificationRepository.js";
 import { getTopN } from "../utils/priorityInbox.js";
 import { Log } from "../../../logging_middleware/src/logger.js";
-import { PrioritizedNotification } from "../domain/notification.js";
+import { PrioritizedNotification } from "../domain/notification";
 
 export async function getPriorityInbox(n: number = 10): Promise<PrioritizedNotification[]> {
   await Log("backend", "info", "service", `getPriorityInbox called with n=${n}`);

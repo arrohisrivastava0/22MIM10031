@@ -9,5 +9,8 @@
     "verbatimModuleSyntax": false,
     "skipLibCheck": true
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*",
+    "../logging_middleware/src/**/*"
+  ]
 }

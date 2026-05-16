@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { Log } from "../../logging_middleware/src/logger.js";
+import { Log } from "../../logging_middleware/dist/logger.js";
 import { loggerMiddleware } from "./middleware/loggerMiddleware.js";
 import notificationRoutes from "./routes/notificationRoutes.js";
 import { config } from "./config/config.js";

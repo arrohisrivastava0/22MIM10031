@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Notification } from "../domain/notification.js";
+import { Notification } from "../domain/notification";
 import { config } from "../config/config.js";
 import { Log } from "../../../logging_middleware/src/logger.js";
 
