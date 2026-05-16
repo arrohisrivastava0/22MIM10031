@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Compiled output
+dist/
+
+# Environment files
+.env
+config.ts
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
